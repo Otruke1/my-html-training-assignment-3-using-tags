@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- This is my project code, which involves the search of new html tags and using them to form a website page about my best book -->
+  <!-- here is the first tag in use: the meta tag. this tags is used to include meta data into html codes.-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My project work</title>
+</head>
+  <!-- This is my project code, which involves the search of new html tags and using them to form a website page about my best book -->
+<body>
+<center>
+  <h1>My Best Book</h1>
+  <em><h3>my best book is titled "Think and Grow Rich"</h3></em>
+  <p>Here is a video of my best book. Enjoy!</p>
+  <!-- here is the second tag in use: the inline frame tag. this tags is used to embed another document within the current HTML document.-->
+  <iframe 
+  width="560" height="315" src="https://www.youtube.com/embed/7UbxJCIUQRE?start=9" title="My best book" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+ </iframe>
+
+ <!-- here is the third tag in use: the audio tag. this tag is used to input audio and make some audio controls available -->
+<p>
+  <strong>Here is the complete audio track of my best book. Enjoy!</strong>
+</p>
+ <audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg">
+  <source type="audio/mp3" src="https://free.audiobookslab.com/audio/think-and-grow-rich.mp3?_=1">
+  Error: sorry, your browser does not support HTML5 audio.
+  </audio>
+  
+<!-- here is the fourth tag in use: the form tag. this tag is used to gather needed information from site visitors or members-->
+<p>      
+<strong>
+          To get your copy of this book, fill the form below and get your copy for free!
+</strong>
+</p>
+  <form>
+    <!-- here is the fourth tag in use: the label tag. This tag is used to make label to forms input and other needed places.-->
+  <label for="fname">Your Full Name:</label><br>
+  <!-- here is the fifth tag in use: the input tag. This tag is used to make space for visitors or memebrs to give information that an admin or permissioned personnel needs.-->
+  <input type="text" id="fname" name="fname"/><br>
+  <label for="email">Your Best E-mail:</label><br>
+  <input type="text" id="lname" name="lname">
+    <p>
+        <strong>Gender</strong>
+        <br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="undertermined" name="gender" value="undertermined">
+  <label for="undetermined">Undetermained</label>
+    </br>
+  <button type="submit" formaction="http://www.google.com">GET NOW</button>
+</form>
+</center>
+</body>
+</html>
